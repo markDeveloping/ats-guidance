@@ -1,0 +1,168 @@
+@import '_grid_layout.scss';
+@import '_colours.scss';
+@import '_typography.scss';
+@import "shims"; 
+@import 'design-patterns/_buttons.scss';
+@import 'design-patterns/_alpha-beta.scss';
+@import "url-helpers";
+@import "elements/helpers";
+@import "elements/reset";
+@import "elements/elements-typography";
+@import "elements/buttons";
+@import "elements/layout";
+@import "elements/forms";
+@import "elements/forms/form-block-labels";
+@import "elements/icons"; 
+@import "elements/lists"; 
+
+/*typography*/
+p {
+	@include copy-19;
+}
+
+p.margin_top {
+	margin-top: 10px;
+}
+
+ul, li {
+	@include copy-19;
+}
+
+a.external-link {
+	@include external-link-default;
+	@include external-link-19;
+}
+
+/*Link style*/
+a {
+	color:$link-colour;
+	@include copy-19;
+}
+
+a:hover {
+	color: $link-hover-colour;
+	text-decoration: none;
+}
+
+a:visited {
+	color: $link-visited-colour;
+}
+
+/*form style*/
+.form-label {
+	font-weight: bold;
+}
+
+.help-text {
+	display: block;
+	font-weight: normal;
+	color: $secondary-text-colour;
+}
+
+fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0; 
+}
+
+legend {
+	position: absolute;
+	left: -5000px;
+}
+
+textarea {
+	width:100%;
+	font-size: 19px;
+	text-transform: none;
+	border:2px solid #6f777b;
+}
+
+textarea:focus {
+	outline: none !important;
+	border: 3px solid $focus-colour;
+}
+
+label.form-checkbox {
+	@include copy-19;
+}
+
+label.block-label:focus {
+	outline: none !important;
+	border: 3px solid $focus-colour;
+}
+
+input:focus {
+	outline: none !important;
+	border: 3px solid $focus-colour;
+}
+
+/*Checkbox*/
+.block-label {
+	font-size: 19px;
+}
+
+/*Word counter*/
+
+.word-counter {
+	padding: 3px 5px;
+	background-color: $panel-colour;
+}
+
+/*Button style*/
+.button{
+  @include button;
+  font-size: 19px;
+}
+
+/*Banner style*/
+.phase-banner  {
+  @include phase-banner(alpha);
+}
+
+/*Grid style*/
+.grid-row {
+	margin-top: 15px;
+}
+
+/*Progress tracker style*/
+
+.prog-tracker {
+	border-right: 1px solid $border-colour;
+	padding-left: 0;
+
+	li {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		a {
+			padding: 11px 10px 10px 5px;
+			text-decoration: none;
+			color: $govuk-blue;
+			display: block;
+		}
+
+		a:hover {
+			background-color: $panel-colour;
+		}
+
+		a:before {
+			padding-left: 19px;
+			content: "";
+		}
+
+		a:after {
+			float: right;
+			content: "\203A";
+		}
+	}
+	.prog-item--active {
+		a {
+		background-color: $govuk-blue;
+		color: #ffffff;
+		}
+
+		a:hover {
+			background-color: $govuk-blue;
+		}
+	}
+	}

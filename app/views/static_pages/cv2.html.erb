@@ -1,0 +1,51 @@
+<% content_for :page_title do %>
+Civil Service Jobs - CV Option 2 - GOV.UK
+<% end %>
+<% content_for :head do %>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+<% end %>
+<% content_for :inside_header do%>
+<div class='header-proposition'>
+  <div class='content'>
+    <nav id='proposition-menu'>
+      <a href='/' id='proposition-name'>Civil Service Jobs</a>
+    </nav>
+  </div>
+</div>
+<% end %>
+
+<div id="content">
+<div id="page-container">
+
+	<div class="phase-banner">
+	  <p>
+	    <strong class="phase-tag">ALPHA</strong>
+	    <span>This is a prototype – your <%= mail_to "support.csjobs@csresourcing.gsi.gov.uk" , "feedback" %> will help us to improve it.</span>
+	  </p>
+	</div>
+
+	<div class="grid-row">
+
+		<%= render 'layouts/progress_tracker' %>
+
+		<div class="column-two-thirds">
+		<%= render 'layouts/cv_content' %>
+		<form>
+		<fieldset>
+		<legend>CV details</legend>
+		<div class="form-group">
+		<label class="form-label" for="full-name-f1">Add your CV</label>
+  		<textarea class="form-textarea" id="full-name-f1" rows="40" cols="72"></textarea>
+  		</div>
+  		</fieldset>
+  		</form>
+  		<div class="form-group">
+		<%= link_to "Save and continue",   personal_statement_path, class: "button" %>
+		</div>
+		</div>
+
+	</div>
+</div>
+</div>
