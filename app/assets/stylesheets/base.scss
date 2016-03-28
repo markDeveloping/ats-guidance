@@ -127,9 +127,7 @@ input:focus {
 /*Progress tracker style*/
 
 .prog-tracker {
-	border-right: 1px solid $border-colour;
 	padding-left: 0;
-
 	li {
 		margin: 0;
 		padding: 0;
@@ -148,11 +146,6 @@ input:focus {
 		a:before {
 			padding-left: 19px;
 			content: "";
-		}
-
-		a:after {
-			float: right;
-			content: "\203A";
 		}
 	}
 	.prog-item--active {
