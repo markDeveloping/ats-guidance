@@ -1,34 +1,38 @@
+<!-- set page title -->
 <% content_for :page_title do %>
-Civil Service Jobs - CV Option 3 - GOV.UK
+Recruitment System - Guidance
 <% end %>
+
+<!-- add minifield and concatenated CSS and JS files -->
 <% content_for :head do %>
 <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 <% end %>
+
+<!-- Set the content for the GOV.UK header -->
 <% content_for :inside_header do%>
 <div class='header-proposition'>
   <div class='content'>
     <nav id='proposition-menu'>
-      <a href='/' id='proposition-name'>Civil Service Jobs</a>
+      <a href='/' id='proposition-name'>Recruitment System Guidance</a>
     </nav>
   </div>
 </div>
 <% end %>
-
+<!-- Main container -->
 <div id="content">
 <div id="page-container">
-
+	<!-- Phase banner minus the phase tag as not necessary -->
 	<div class="phase-banner">
 	  <p>
-	    <strong class="phase-tag">ALPHA</strong>
-	    <span>This is a prototype – your <%= mail_to "support.csjobs@csresourcing.gsi.gov.uk" , "feedback" %> will help us to improve it.</span>
+	    <span>Your <%= mail_to "support.csjobs@csresourcing.gsi.gov.uk" , "feedback" %> on this guide will help us to improve it.</span>
 	  </p>
 	</div>
 
 	<div class="grid-row">
 
-		<%= render 'layouts/progress_tracker' %>
+		
 
 		<div class="column-two-thirds">
 		<%= render 'layouts/cv_content' %>
@@ -36,16 +40,12 @@ Civil Service Jobs - CV Option 3 - GOV.UK
 		<fieldset>
 		<legend>CV details</legend>
 		<div class="form-group">
-		<label class="form-label" for="full-name-f1">Skills<span class="help-text">Enter skills relevant to the advertised job</span></label>
-  		<textarea class="form-textarea" id="full-name-f1" rows="20" cols="40"></textarea>
-  		</div>
-  		<div class="form-group">
 		<label class="form-label" for="full-name-f1">Employment history<span class="help-text">Enter your full history starting with the most recent</span></label>
-  		<textarea class="form-textarea" id="full-name-f1" rows="20" cols="40"></textarea>
+  		<textarea class="form-textarea" name="career-history" id="full-name-f1" rows="20" cols="40"></textarea>
   		</div>
   		<div class="form-group">
 		<label class="form-label" for="full-name-f1">Qualification details<span class="help-text">Enter your educational and professional qualifications</span></label>
-  		<textarea class="form-textarea" id="full-name-f1" rows="20" cols="40"></textarea>
+  		<textarea class="form-textarea" name="qualifications" id="full-name-f1" rows="20" cols="40"></textarea>
   		</div>
   		<div class="form-group">
 			<label class="block-label" for="waste-type-1">
@@ -56,7 +56,6 @@ Civil Service Jobs - CV Option 3 - GOV.UK
   		</fieldset>
   		</form>
   		<div class="form-group">
-		<%= link_to "Save and continue",   personal_statement_path, class: "button" %>
 		</div>
 		</div>
 

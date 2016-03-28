@@ -1,16 +1,10 @@
 Rails.application.routes.draw do
-  
-  root 'static_pages#cv1'
 
-  get 'ats' => 'vacancy_template#ats_template'
+  root 'static_pages#guide'
 
-  get 'cv1' => 'static_pages#cv1'
+  # An example of setting up a named route
+  # get 'cv1' => 'static_pages#cv1'
 
-  get 'cv2' => 'static_pages#cv2'
-
-  get 'cv3' => 'static_pages#cv3'
-
-  get 'personal_statement' => 'static_pages#personal_statement'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
