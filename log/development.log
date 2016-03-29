@@ -2507,3 +2507,978 @@ Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0
 
 
 Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-28 19:47:26 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 14:43:24 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (1.4ms)
+  Rendered layouts/_guidance.html.erb (0.7ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (7154.6ms)
+Completed 200 OK in 8141ms (Views: 7853.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-29 14:46:40 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_guidance.html.erb (0.1ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (442.7ms)
+Completed 200 OK in 698ms (Views: 697.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/base.self-d9f69d7fa721c6f28370e108d2968acbb7f81f39db80d7731c79a5a8b5ad4099.css?body=1" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 14:46:41 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 14:46:42 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:02:33 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_guidance.html.erb (0.2ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (386.8ms)
+Completed 200 OK in 718ms (Views: 716.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/base.self-d9f69d7fa721c6f28370e108d2968acbb7f81f39db80d7731c79a5a8b5ad4099.css?body=1" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:02:34 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:02:49 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_guidance.html.erb (0.1ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (41.6ms)
+Completed 200 OK in 137ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/base.self-d9f69d7fa721c6f28370e108d2968acbb7f81f39db80d7731c79a5a8b5ad4099.css?body=1" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:02:50 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:03:49 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_guidance.html.erb (0.1ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (386.7ms)
+Completed 200 OK in 757ms (Views: 755.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/base.self-d9f69d7fa721c6f28370e108d2968acbb7f81f39db80d7731c79a5a8b5ad4099.css?body=1" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:03:50 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:03:51 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:03:51 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:03:51 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:03:51 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:03:51 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:03:51 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:03:51 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:06:40 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_guidance.html.erb (0.1ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (1964.9ms)
+Completed 200 OK in 2223ms (Views: 2222.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/base.self-0bbb83d7bc2b51c24f1abbe9390ee407c10afdc5b5c9dcf48c35b5670109dbf0.css?body=1" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:06:43 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:07:46 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_guidance.html.erb (0.1ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (442.2ms)
+Completed 200 OK in 645ms (Views: 644.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base.self-0bbb83d7bc2b51c24f1abbe9390ee407c10afdc5b5c9dcf48c35b5670109dbf0.css?body=1" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:07:47 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:08:14 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.3ms)
+  Rendered layouts/_guidance.html.erb (0.2ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (1698.2ms)
+Completed 200 OK in 1979ms (Views: 1978.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base.self-ad11ba5175bdb7ec8e7e1ee69061d87be4ddc271e87107a5bdb5dc03b90ec704.css?body=1" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:08:16 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:08:25 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (799.4ms)
+Completed 500 Internal Server Error in 806ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined mixin 'copy-22'.):
+     5: 
+     6: <!-- add minifield and concatenated CSS and JS files -->
+     7: <% content_for :head do %>
+     8: <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: <% end %>
+  app/assets/stylesheets/base.scss:39:in `copy-22'
+  app/assets/stylesheets/base.scss:39
+  app/views/static_pages/guide.html.erb:8:in `block in _app_views_static_pages_guide_html_erb__1898893739927060440_70291142359020'
+  app/views/static_pages/guide.html.erb:7:in `_app_views_static_pages_guide_html_erb__1898893739927060440_70291142359020'
+
+
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (150.2ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (101.2ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (233.3ms)
+
+
+Started GET "/" for ::1 at 2016-03-29 19:08:34 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (724.5ms)
+Completed 500 Internal Server Error in 788ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined mixin 'copy-24'.):
+     5: 
+     6: <!-- add minifield and concatenated CSS and JS files -->
+     7: <% content_for :head do %>
+     8: <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: <% end %>
+  app/assets/stylesheets/base.scss:39:in `copy-24'
+  app/assets/stylesheets/base.scss:39
+  app/views/static_pages/guide.html.erb:8:in `block in _app_views_static_pages_guide_html_erb__1898893739927060440_70291142359020'
+  app/views/static_pages/guide.html.erb:7:in `_app_views_static_pages_guide_html_erb__1898893739927060440_70291142359020'
+
+
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.4ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.7ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (107.6ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (248.7ms)
+
+
+Started GET "/" for ::1 at 2016-03-29 19:09:01 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (2215.9ms)
+Completed 500 Internal Server Error in 2363ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined mixin 'copy-26'.):
+     5: 
+     6: <!-- add minifield and concatenated CSS and JS files -->
+     7: <% content_for :head do %>
+     8: <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: <% end %>
+  app/assets/stylesheets/base.scss:39:in `copy-26'
+  app/assets/stylesheets/base.scss:39
+  app/views/static_pages/guide.html.erb:8:in `block in _app_views_static_pages_guide_html_erb__1898893739927060440_70291142359020'
+  app/views/static_pages/guide.html.erb:7:in `_app_views_static_pages_guide_html_erb__1898893739927060440_70291142359020'
+
+
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.2ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (259.8ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (2.1ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (165.0ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (382.4ms)
+
+
+Started GET "/" for ::1 at 2016-03-29 19:09:08 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (1110.6ms)
+Completed 500 Internal Server Error in 1259ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Undefined mixin 'copy-26'.):
+     5: 
+     6: <!-- add minifield and concatenated CSS and JS files -->
+     7: <% content_for :head do %>
+     8: <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     9:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    10:   <%= csrf_meta_tags %>
+    11: <% end %>
+  app/assets/stylesheets/base.scss:39:in `copy-26'
+  app/assets/stylesheets/base.scss:39
+  app/views/static_pages/guide.html.erb:8:in `block in _app_views_static_pages_guide_html_erb__1898893739927060440_70291142359020'
+  app/views/static_pages/guide.html.erb:7:in `_app_views_static_pages_guide_html_erb__1898893739927060440_70291142359020'
+
+
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.4ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.6ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (141.4ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (113.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/user/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (278.2ms)
+
+
+Started GET "/" for ::1 at 2016-03-29 19:09:18 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_guidance.html.erb (0.2ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (216.2ms)
+Completed 200 OK in 473ms (Views: 472.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/base.self-ad11ba5175bdb7ec8e7e1ee69061d87be4ddc271e87107a5bdb5dc03b90ec704.css?body=1" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:09:18 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:09:19 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:09:19 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:09:19 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:09:19 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:09:31 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_guidance.html.erb (0.1ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (1417.9ms)
+Completed 200 OK in 1520ms (Views: 1519.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base.self-a5247611bea34dc1e19b5e2168ddbb01177214ef7d9afe144433f72075c14774.css?body=1" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:09:33 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:10:40 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_guidance.html.erb (0.1ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (1194.6ms)
+Completed 200 OK in 1298ms (Views: 1297.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/base.self-5392b5133ea46687263c6f296f716dd9c600fe9a49624d691f8a95f819e440c8.css?body=1" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:10:42 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:10:51 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_guidance.html.erb (0.1ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (1276.8ms)
+Completed 200 OK in 1377ms (Views: 1376.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/base.self-1247442a5931a0a8216d5b8d9355dae74f05e78a4070f5a8740e5ebbd86a2f7c.css?body=1" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:10:53 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:11:16 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.2ms)
+  Rendered layouts/_guidance.html.erb (0.0ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (55.0ms)
+Completed 200 OK in 150ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/base.self-1247442a5931a0a8216d5b8d9355dae74f05e78a4070f5a8740e5ebbd86a2f7c.css?body=1" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:11:16 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:12:55 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.6ms)
+  Rendered layouts/_guidance.html.erb (0.2ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (2198.0ms)
+Completed 200 OK in 2500ms (Views: 2499.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/base.self-b334d66ab5cc3572faf36eb007494d1707d86a68a99413d763662f19e8371a18.css?body=1" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:12:58 +0100
+
+
+Started GET "/" for ::1 at 2016-03-29 19:13:12 +0100
+Processing by StaticPagesController#guide as HTML
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_guidance.html.erb (0.1ms)
+  Rendered static_pages/guide.html.erb within layouts/govuk_template (1239.5ms)
+Completed 200 OK in 1347ms (Views: 1346.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template-8f53a4a9f4ceeefad1b29607e0cb1b56744f3780f58c41a9ba701c1cf8def0a1.css" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/fonts-60b837db5bb09a825c4aae9775f5e0d05683e562101e1c6a5533217406a05eb1.css" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/base.self-9b7a5af2c382c2ee4cfd5fc07ef34e267b2a58e4d4d2ffe14965d54c870fca2a.css?body=1" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/application.self-95afe0b7f924b132696224e3a4a467f3e64f5ca779069d6d10cfea1416d8d43a.js?body=1" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/govuk-template-b58ee92a406e79011461800a820e0d473a3e292385101dd125221c1b97ace94e.js" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/govuk-template-print-34ac43bd61b8ab5ea7b8ceb387513d7768143359d6e00170962bf51984120db8.css" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/gov.uk_logotype_crown_invert_trans-78910ec0b2d46b9f4933556ba3d6863ca9bbcbefa8a4c811dce36f7026d04de8.png" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/images/gov.uk_logotype_crown-14b98db97bbd6cb1f33935d3e0d973fa68ca0c38fb5762b033423ceffe9e16f6.png" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/images/open-government-licence-c1aedc8257961b938b4c7a21a2b0db3f2716dd9ef782cea73110dc69107c9042.png" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/images/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png" for ::1 at 2016-03-29 19:13:13 +0100
+
+
+Started GET "/assets/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" for ::1 at 2016-03-29 19:13:14 +0100
