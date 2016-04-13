@@ -5,6 +5,7 @@
 @import 'design-patterns/_buttons.scss';
 @import 'design-patterns/_alpha-beta.scss';
 @import "url-helpers";
+@import "typography"; 
 @import "elements/helpers";
 @import "elements/reset";
 @import "elements/elements-typography";
@@ -33,6 +34,10 @@ a.external-link {
 	@include external-link-19;
 }
 
+.small-text {
+	@include copy-16;
+}
+
 .type {
 	color: #6f777b;
     margin-bottom: 5px;
@@ -45,6 +50,7 @@ a.external-link {
 .back {
 	display: none;
 	visibility: none;
+	position: fixed;
 }
 
 /*Link style*/
@@ -115,11 +121,31 @@ input:focus {
 	font-size: 19px;
 }
 
-/*Word counter*/
+/*file link*/
 
-.word-counter {
-	padding: 3px 5px;
-	background-color: $panel-colour;
+.attach{
+	padding: 24px 0;
+	float:right;
+	width: 100%;
+	display: block;
+}
+
+.attachRight{
+float: left;
+padding: 0 19px;
+}
+
+.attachLeft{
+	float: left;
+}
+
+img.border {
+	outline: 5px solid rgba(11,12,12,0.1);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+}
+
+a.attachLink {
+	font-size: 24px;
 }
 
 /*Button style*/
